@@ -6,7 +6,7 @@ layout: home
 ---
 
 
-Hi! I am Maharaj Brahma, a second year Master of Technology (M.Tech.) student in the Department of Computer Science & Engineering at the Central Institute of Technology (CIT) Kokrajhar, Deemed to be University under MoE, India. 
+Hi! I am Maharaj Brahma, a second year Master of Technology (M.Tech.) student in the Department of Computer Science & Engineering at the Central Institute of Technology (CIT) Kokrajhar, Deemed to be University under MoE, India.
 
 I'm currently supervised by sir [(Mr.) Sanjib Narzary](https://cit.ac.in/departments/profile/cse/sanjib-narzary) and I am working on Machine Translation for the under-resource language Indian language Bodo. 
 
