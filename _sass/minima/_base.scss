@@ -47,6 +47,8 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif;
+  text-rendering: optimizeLegibility !important;
 }
 
 
@@ -189,6 +191,9 @@ pre {
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
@@ -209,17 +214,25 @@ pre {
  */
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 23px;
     display: inline-block;
     fill: #{$grey-color};
     padding-right: 5px;
     vertical-align: text-top;
 }
 
+.contact-list {
+  li {
+    padding: 5px 10px;
+  }
+}
+
 .social-media-list {
-  li + li {
-    padding-top: 5px;
+  li {
+    // padding-top: 5px;
+    // padding-left: 10px;
+    padding: 5px 10px;
   }
 }
 

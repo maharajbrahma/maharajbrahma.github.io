@@ -120,6 +120,8 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-col-wrapper {
@@ -171,7 +173,27 @@
   }
 }
 
+/**
+* News content
+*/
 
+.news-list-heading {
+  @include relative-font-size(1.25);
+}
+
+.news-list {
+  margin-left: 16px;
+  list-style: square;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.news-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
 
 /**
  * Page content
