@@ -5,7 +5,7 @@
 
     <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
 
-    <div class="wrapper-list">
+    <div class="wrapper-list"  style="max-width: 250px;">
       <ul class="contact-list">
         {%- if site.email -%}
         <li><a class="u-email" href="mailto:{{ site.email }}">Email</a></li>
@@ -16,8 +16,19 @@
         </ul>
       
     </div>
-    <div class="wrapper-list">
+    <div class="wrapper-list" style="max-width: 100px;">
       {%- include social.html -%}
+    </div>
+    <div class="wrapper-list"  style="max-width: 250px;">
+      <ul class="contact-list">
+        {%- if site.semantic_scholar -%}
+        <li><a class="u-email" href="{{ site.semantic_scholar }}">Semantic Scholar</a></li>
+        {%- endif -%}
+        {%- if site.orcid -%}
+        <li><a class="u-email" href="{{ site.orcid }}">ORCiD</a></li>
+        {%- endif -%}
+        </ul>
+      
     </div>
     <!-- <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -42,9 +53,9 @@
         <!-- {%- include social.html -%} -->
       <!-- </div> -->
 
-      <div class="footer-col footer-col-3">
+      <!-- <div class="footer-col footer-col-3"> -->
         <!-- <p>{{- site.description | escape -}}</p> -->
-      </div>
+      <!-- </div> -->
     </div>
 
   </div>

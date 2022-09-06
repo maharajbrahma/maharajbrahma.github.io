@@ -26,7 +26,8 @@ url: "https://maharajbrahma@github.io" # the base hostname & protocol for your s
 twitter_username: mrajbrahma
 github_username:  maharajbrahma
 google_scholar: "https://scholar.google.com/citations?user=g-i3MXwAAAAJ"
-
+semantic_scholar: "https://www.semanticscholar.org/author/Maharaj-Brahma/1393384417"
+orcid: "https://orcid.org/0000-0002-0155-3745"
 # Build settings
 theme: minima
 plugins:
