@@ -8,4 +8,4 @@ description: Teaching activities
 January 2022 - March 2022 | M.Tech. Course | Faculty: [Dr. Pranav Kumar Singh](https://cit.ac.in/departments/profile/cse/pranav-kumar-singh) 
 * Assisted in preparation of course logistics, slides and instruction manual
 * Responsible for teaching ns-3 network simulator
-* Created and evaluated lab assigments on ns-3
+* Created and evaluated lab assignments on ns-3
