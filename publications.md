@@ -6,7 +6,7 @@ description: Publications related to research work done
 
 1. Generating Monolingual Dataset for Low Resource Language Bodo from old books using Google Keep. <br>
 Sanjib Narzary, **Maharaj Brahma**, Mwnthai Narzary, Gwmsrang Muchahary, Pranav Kumar Singh, Apurbalal Senapati, Sukumar Nandi, Bidisha Som. **LREC 2022** <br>
-[pdf](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.705.pdf) [poster](http://www.lrec-conf.org/proceedings/lrec2022/media/posters/757.pdf) [bib](http://www.lrec-conf.org/proceedings/lrec2022/bib/2022.lrec-1.705.bib)
+[pdf](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.705.pdf) [poster](http://www.lrec-conf.org/proceedings/lrec2022/media/posters/757.pdf) [bib](http://www.lrec-conf.org/proceedings/lrec2022/bib/2022.lrec-1.705.bib) [webpage](https://aclanthology.org/2022.lrec-1.705/)
 
 2. GROUP: Global RObUst and Privacy Preserved Model for Diabetes Prediction. <br>
 Ashlesha Hota, Ramakrishan Pinati, **Maharaj Brahma**, Pranav Kumar Singh. **TENSYMP 2022**
