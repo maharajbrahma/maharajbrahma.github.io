@@ -71,7 +71,8 @@ def devanagarized(x):
 ```python
 import pandas as pd
 
-path = ''
+# Corpus path
+path = '/home/maharaj/repositories/bodonlp/bodo-bs-parallel-corpus/dataset/bodo_bhasha_sangam_parallel_corpus_with_roman.csv'
 
 corpus = pd.read_csv(path, header=None)
 
