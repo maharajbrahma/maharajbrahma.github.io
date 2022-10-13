@@ -1,6 +1,6 @@
 ---
 layout: custom
-title: Teaching
+title: Academic Experiences
 description: Teaching activities
 ---
 
