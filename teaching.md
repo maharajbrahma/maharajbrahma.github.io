@@ -4,7 +4,13 @@ title: Academic Experiences
 description: Teaching activities
 ---
 
-1. Advanced Computer Network Lab - Teaching Assistant, CIT Kokrajhar <br>
+1.  Operating System 2 - Teaching Assistant, IIT Hyderabad <br>
+January 2023 - May 2023 | B.Tech. Course (Undergraduate Level) | Course Instructor: [Prof. (Dr.) Satya Peri ](https://people.iith.ac.in/sathya_p/)
+* Evaluation of programming/theory assignments
+* Proctoring of quizes and exams 
+
+
+2. Advanced Computer Network Lab - Teaching Assistant, CIT Kokrajhar <br>
 March 2022 - July 2022 | M.Tech. Course (Graduate Level) | Course Instructor: [Dr. Pranav Kumar Singh](https://cit.ac.in/departments/profile/cse/pranav-kumar-singh) 
 * Conduction of lab sessions on Cisco Packet Tracer
 * Preparation of lab course materials and assignments in LaTex
