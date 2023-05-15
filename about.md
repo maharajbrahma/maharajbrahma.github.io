@@ -4,10 +4,12 @@ title: About
 description: More about me
 ---
 
-Hello, thank you for stopping by! 
+Hello, thanks for stopping by! 
 
 
-I am Maharaj, a CS Master student at CITK. I was born on vibrant Bodo community and proudly wears Aronai. Ardently believes on:
+I'm  Maharaj. From vibrant Bodo community. Proudly wears Aronai. Ardently believes on:
 > Vasudhaiva Kutumbakam (वसुधैव कुटुम्बकम्) - _The whole is a single family_.
+
+"No knowledge is free until and unless it exists in your own mother tongue."
 
 **_Currently building it. One step at a time. Please stop by time to time._**
