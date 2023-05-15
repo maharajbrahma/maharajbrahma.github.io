@@ -5,14 +5,9 @@
 layout: home
 ---
 
+Hi! I’m Maharaj Brahma, a first-year Ph.D. student in the Department of Computer Science & Engineering at the Indian Institute of Technology Hyderabad (IITH).  I'm fortunate to be supervised by Dr. [Maunendra Sankar Desarkar](https://people.iith.ac.in/maunendra/index.html). My research interests include natural language processing, building resources for low-resource language, and machine translation.
 
-Hi! I am Maharaj Brahma, a second-year Master of Technology (M.Tech.) student in the Department of Computer Science & Engineering at the Central Institute of Technology Kokrajhar (CITK), CFTI, Deemed to be University under MoE, India.
-
-I'm currently supervised by (sir) Mr. [Sanjib Narzary](https://cit.ac.in/departments/profile/cse/sanjib-narzary) and I am working on Machine Translation for the under-resourced Indian language Bodo. 
-
-Currently, I'm serving as a Teaching Assistant (TA) for the master's course Advanced Computer Network Lab (PCSE271) and the undergraduate course Programming for Problem Solving Lab (UCSE271).
-
-I served as a TA for the master's course Mobile and Pervasive Computing (PCSE115) instructed by (sir) Dr. [Pranav Kumar Singh](https://cit.ac.in/departments/profile/cse/pranav-kumar-singh).
+Prior to joining the Ph.D. program, I completed my Master of Technology (M.Tech.) at Central Institute of Technology Kokrajhar (CITK), CFTI, Deemed to be University under MoE, India. I was fortunate to be supervised by (sir) Mr. [Sanjib Narzary](https://cit.ac.in/departments/profile/cse/sanjib-narzary), and I worked on Machine Translation for the under-resourced Indian language Bodo.  I served as a Teaching Assistant (TA) for the master's course Advanced Computer Network Lab (PCSE271) and the undergraduate course Programming for Problem Solving Lab (UCSE271). I was a TA for the master’s course Mobile and Pervasive Computing (PCSE115), instructed by (sir) Dr. [Pranav Kumar Singh](https://cit.ac.in/departments/profile/cse/pranav-kumar-singh).
 
 In 2020, I had the good fortune to co-found a startup ["DigitalOma"](https://digitaloma.com) along with my friends.
 
