@@ -135,7 +135,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .news-list { margin-left: 16px; list-style: square; }
 
-.news-list > li { margin-bottom: 30px; }
+.news-list > li { margin-bottom: 3px; }
 
 .news-meta { font-size: 0.875rem; color: #828282; }
 
