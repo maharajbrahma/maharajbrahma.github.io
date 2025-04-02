@@ -180,11 +180,13 @@
 
 .news-list-heading {
   @include relative-font-size(1.25);
-  padding-top: 10px;
+  padding-top: 5px;
+  margin-bottom: 5px;
 }
 
 .news-list {
   margin-left: 16px;
+  margin-bottom: 4px;
   list-style: square;
 
   > li {
@@ -277,4 +279,8 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+.home {
+  padding: 5px 0px 5px 0px;
 }
