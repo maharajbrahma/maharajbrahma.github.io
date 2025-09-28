@@ -11,5 +11,5 @@
     # slides: "#"
     # poster: "#"
     dataset: "https://huggingface.co/datasets/nlip/DIWALI"
-    blog: "https://nlip-lab.github.io/nlip/"
+    blog: "https://nlip-lab.github.io/nlip/publications/diwali/"
   thumb: "assets/images/food_facet_diwali.png"
