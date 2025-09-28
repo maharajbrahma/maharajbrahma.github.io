@@ -1,0 +1,15 @@
+# _data/preprints.yml
+# Each item: id, title, authors, year, venue (optional), links (pdf, bibtex, slides), thumb
+- id: j4r-learning-to-judge
+  title: "DIWALI-Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context"
+  authors: "Pramit Sahoo, Maharaj Brahma, Maunendra Sankar Desarkar"
+  year: 2025
+  venue: "EMNLP"
+  links:
+    pdf: "https://arxiv.org/pdf/2509.17399v1"
+    # bibtex: "#"
+    # slides: "#"
+    # poster: "#"
+    dataset: "https://huggingface.co/datasets/nlip/DIWALI"
+    blog: "https://nlip-lab.github.io/nlip/"
+  thumb: "assets/images/food_facet_diwali.png"
