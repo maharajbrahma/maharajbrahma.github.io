@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,39 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"Publications related to research work done","headline":"Publications","url":"http://localhost:4000/publications.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Maharaj Brahma" /></head>
-<body><header class="site-header" role="banner">
+<style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 20px; color:#222; }
+        h1 { margin-bottom: 0.5rem; }
+        .publication-list { display: flex; flex-direction: column; gap: 8px; }
+        .publication { display:flex; gap:10px; align-items:flex-start; padding:12px; border-radius:8px; background:#ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+        .publication img.thumb { width:200px; height:100px; border-radius:6px; flex-shrink:0; }
+        .meta { min-width:0; }
+        /* .title { margin:0 0 6px 0; font-size:1.05rem; color:#0b5db8; } */
+        .authors { font-size:0.92rem; color:#444; margin-bottom:8px; }
+        .badges { display:flex; gap:8px; flex-wrap:wrap; }
+
+        /* Badge styles with background colors */
+        .badge {
+            display:inline-block;
+            padding:3px 8px;
+            border-radius:4px;
+            text-decoration:none;
+            font-size:0.75rem;
+            font-weight:500;
+            color:#fff;
+        }
+        .badge.pdf { background: #5cb85c; }       /* green */
+        .badge.bib { background: #d9534f; }      /* pink/red */
+        .badge.slides { background:#2196f3; }   /* blue */
+        .badge.abstract { background:#9e9e9e; } /* gray */
+        .badge.poster { background:#5cb85c; } /* gray */
+
+        /* @media (max-width:640px) {
+            .preprint img.thumb { width:96px; height:64px; }
+        } */
+    </style>
+
+  <body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Maharaj Brahma</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -41,196 +73,29 @@
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
-      <div class="page-wrapper"><h1 class="page-heading">Publications</h1><div style="
-    background: #f9f9f9;
-    padding: 15px;
-    max-width: 800px;
-    font-family: 'Segoe UI', SegoeUI, Roboto, 'Segoe WP', 'Helvetica Neue', 'Helvetica', 'Tahoma', 'Arial', sans-serif;
-    margin-bottom: 15px;
-">
-    <p style="margin: 0; line-height: 1.5;">
-        <a href="https://aclanthology.org/2024.wmt-1.70/" style="color: #0073e6; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-           NLIP_Lab-IITH Low-Resource MT System for WMT24 Indic MT Shared Task.
-        </a>
-        <br />
-        <span>Pramit Sahoo, <span style="font-weight: bold;">Maharaj Brahma</span>, Maunendra Sankar Desarkar.</span>
-        <br />
-        <span style="font-weight: bold;">WMT 2024</span>
-    </p>
-</div>
+        <div class="page-wrapper"><h1 class="page-heading">Publications</h1><div class="publication-list">
 
-<div style="
-    background: #f9f9f9;
-    padding: 15px;
-    max-width: 800px;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-">
-    <p style="margin: 0; line-height: 1.5;">
-        <a href="https://aclanthology.org/2024.wmt-1.74/" style="color: #0073e6; text-decoration: none; font-weight: bold;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-           NLIP-Lab-IITH Multilingual MT System for WAT24 MT Shared Task.
-        </a>
-        <br />
-        <span><span style="font-weight: bold;">Maharaj Brahma</span>, Pramit Sahoo, Maunendra Sankar Desarkar.</span>
-        <br />
-        <span style="font-weight: bold;">WMT 2024</span>
-    </p>
-</div>
+<article class="publication">
+    <img class="thumb" src="assets/images/food_facet_diwali.png" alt="DIWALI-Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context thumbnail" />
+    <div class="meta">
+    <h2 class="title">DIWALI-Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context</h2>
+    <div class="authors">Pramit Sahoo, Maharaj Brahma, Maunendra Sankar Desarkar.  EMNLP 2025.</div>
+    <div class="badges">
+        <a class="badge pdf" href="https://arxiv.org/pdf/2509.17399v1">PDF</a>
+        
+        
+        
+        
+        <a class="badge slides" href="https://huggingface.co/datasets/nlip/DIWALI">Dataset</a>
+        <a class="badge pdf" href="https://nlip-lab.github.io/nlip/">Blog</a>
 
-<div style="
-    background: #f9f9f9;
-    padding: 15px;
-    max-width: 800px;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-">
-    <p style="margin: 0; line-height: 1.5;">
-        <a href="https://aclanthology.org/2023.findings-emnlp.109/" style="color: #0073e6; text-decoration: none; font-weight: bold;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-           SelectNoise: Unsupervised Noise Injection to Enable Zero-Shot Machine Translation for Extremely Low-resource Languages.
-        </a>
-        <br />
-        <span><span style="font-weight: bold;">Maharaj Brahma</span>, Kaushal Maurya, Maunendra Desarkar.</span>
-        <br />
-        <span style="font-weight: bold;">Findings of EMNLP 2023</span>
-    </p>
-</div>
-
-<div style="
-    background: #f9f9f9;
-    padding: 15px;
-    max-width: 800px;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-">
-    <p style="margin: 0; line-height: 1.5;">
-        <a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.705.pdf" style="color: #0073e6; text-decoration: none; font-weight: bold;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-           Generating Monolingual Dataset for Low Resource Language Bodo from old books using Google Keep.
-        </a>
-        <br />
-        <span>Sanjib Narzary, <span style="font-weight: bold;">Maharaj Brahma</span>, Mwnthai Narzary, Gwmsrang Muchahary, Pranav Kumar Singh, Apurbalal Senapati, Sukumar Nandi, Bidisha Som.</span>
-        <br />
-        <span style="font-weight: bold;">LREC 2022</span>
-    </p>
-</div>
-
-<div style="
-    background: #f9f9f9;
-    padding: 15px;
-    max-width: 800px;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-">
-    <p style="margin: 0; line-height: 1.5;">
-        <a href="https://ieeexplore.ieee.org/document/9864370" style="color: #0073e6; text-decoration: none; font-weight: bold;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-           GROUP: Global RObUst and Privacy Preserved Model for Diabetes Prediction.
-        </a>
-        <br />
-        <span>Ashlesha Hota, Ramakrishan Pinati, <span style="font-weight: bold;">Maharaj Brahma</span>, Pranav Kumar Singh.</span>
-        <br />
-        <span style="font-weight: bold;">TENSYMP 2022</span>
-    </p>
-</div>
-
-<div style="
-    background: #f9f9f9;
-    padding: 15px;
-    max-width: 800px;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-">
-    <p style="margin: 0; line-height: 1.5;">
-        <a href="https://books.aijr.org/index.php/press/catalog/book/115/chapter/1126" style="color: #0073e6; text-decoration: none; font-weight: bold;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-           Bodo Resources for NLP - An Overview of Existing Primary Resources for Bodo.
-        </a>
-        <br />
-        <span>Mwnthai Narzary, Gwmsrang Muchahary, <span style="font-weight: bold;">Maharaj Brahma</span>, Sanjib Narzary, Pranav Kumar Singh, Apurbalal Senapati.</span>
-        <br />
-        <span style="font-weight: bold;">ICTCON 2021</span>
-    </p>
-</div>
-
-<div style="
-    background: #f9f9f9;
-    padding: 15px;
-    max-width: 800px;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-">
-    <p style="margin: 0; line-height: 1.5;">
-        <a href="https://ieeexplore.ieee.org/abstract/document/8819699/" style="color: #0073e6; text-decoration: none; font-weight: bold;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
-           Attention-based English-Bodo Neural Machine Translation System for Tourism Domain.
-        </a>
-        <br />
-        <span>Sanjib Narzary, <span style="font-weight: bold;">Maharaj Brahma</span>, Bobita Singha, Rangjali Brahma, Bonali Dibragede, Sunita Barman, Sukumar Nandi, Bidisha Som.</span>
-        <br />
-        <span style="font-weight: bold;">IEEE ICCMC 2019</span>
-    </p>
-</div>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper-footer">
-
-    <!-- <h2 class="footer-heading">Maharaj Brahma</h2> -->
-
-    <div class="wrapper-list"  style="max-width: 250px;">
-      <ul class="contact-list"><li><a class="u-email" href="mailto:cs23resch01004@iith.ac.in">Email</a></li><li><a class="u-email" href="https://scholar.google.com/citations?user=g-i3MXwAAAAJ">Google scholar</a></li></ul>
-      
     </div>
-    <div class="wrapper-list" style="max-width: 100px;"><ul class="social-media-list"><li>
-      <a href="https://github.com/maharajbrahma">
-        <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg>
-      </a>
-    </li><li>
-      <a href="https://www.twitter.com/mrajbrahma">
-        <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg>
-      </a>
-    </li></ul>
+    </div>
+</article>
+
 </div>
-    <div class="wrapper-list hidden-mobile"  style="max-width: 250px;">
-      <ul class="contact-list"><li><a class="u-email" href="https://www.semanticscholar.org/author/Maharaj-Brahma/1393384417">Semantic scholar</a></li><li><a class="u-email" href="https://orcid.org/0000-0002-0155-3745">ORCiD</a></li></ul>
-      
-    </div>
-    <!-- <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name"> -->
-            <!---->
-              <!-- Maharaj Brahma -->
-            <!---->
-            <!-- </li> -->
-            <!---->
-            <!-- <li><a class="u-email" href="mailto:cs23resch01004@iith.ac.in">Email</a></li> -->
-            <!---->
-            <!---->
-            <!-- <li><a class="u-email" href="https://scholar.google.com/citations?user=g-i3MXwAAAAJ">Google scholar</a></li> -->
-            <!---->
-        <!-- </ul> -->
-      <!-- </div>  -->
 
-      <!-- <div class="footer-col footer-col-2"> -->
-        <!--<ul class="social-media-list"><li>
-      <a href="https://github.com/maharajbrahma">
-        <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg>
-      </a>
-    </li><li>
-      <a href="https://www.twitter.com/mrajbrahma">
-        <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg>
-      </a>
-    </li></ul>
--->
-      <!-- </div> -->
-
-      <!-- <div class="footer-col footer-col-3"> -->
-        <!-- <p></p> -->
-      <!-- </div> -->
-    </div>
-
-  </div>
-
-</footer>
-</body>
-
+        </div>
+    </main>
+  </body>
 </html>
