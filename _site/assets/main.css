@@ -4,13 +4,13 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 @media (max-width: 1024px) { .hidden-mobile { display: none; } }
 
 /** Basic styling */
-body { font: 300 1rem/1.5 Roboto, sans-serif; color: #000; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 300 1rem/1.5 Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif; color: #444; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
 
 /** `main` element */
-main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ font-family: "Segoe UI", SegoeUI, Roboto, "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", sans-serif; text-rendering: optimizeLegibility !important; }
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif; text-rendering: optimizeLegibility !important; }
 
 /** Images */
 img { max-width: 100%; vertical-align: middle; }
@@ -33,7 +33,7 @@ a { color: #037feb; text-decoration: none; }
 
 a:visited { color: #02569f; }
 
-a:hover { color: #000; text-decoration: underline; }
+a:hover { color: #444; text-decoration: underline; }
 
 .social-media-list a:hover { text-decoration: none; }
 
@@ -80,7 +80,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .social-media-list li { padding: 5px 10px; }
 
 /** Tables */
-table { margin-bottom: 30px; width: 100%; text-align: left; color: #2e2e2e; border-collapse: collapse; border: 1px solid #e8e8e8; }
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #727272; border-collapse: collapse; border: 1px solid #e8e8e8; }
 
 table tr:nth-child(even) { background-color: #f7f7f7; }
 
@@ -103,7 +103,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-nav .menu-icon { display: none; }
 
-.site-nav .page-link { color: #000; line-height: 1.5; }
+.site-nav .page-link { color: #444; line-height: 1.5; }
 
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 
