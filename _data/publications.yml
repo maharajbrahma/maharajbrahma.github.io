@@ -1,10 +1,13 @@
 # _data/preprints.yml
 # Each item: id, title, authors, year, venue (optional), links (pdf, bibtex, slides), thumb
-- id: j4r-learning-to-judge
+
+- id: diwali
   title: "DIWALI-Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context"
-  authors: "Pramit Sahoo, Maharaj Brahma, Maunendra Sankar Desarkar"
+  authors: "Pramit Sahoo*, Maharaj Brahma*, Maunendra Sankar Desarkar"
   year: 2025
   venue: "EMNLP"
+  others:
+    note: "Oral presentation"
   links:
     pdf: "https://arxiv.org/pdf/2509.17399v1"
     # bibtex: "#"
@@ -13,3 +16,66 @@
     dataset: "https://huggingface.co/datasets/nlip/DIWALI"
     blog: "https://nlip-lab.github.io/nlip/publications/diwali/"
   thumb: "assets/images/food_facet_diwali.png"
+
+- id: morphtok
+  title: "MorphTok: Morphologically grounded tokenization for Indic languages"
+  authors: "Maharaj Brahma, NJ Karthika, Atul Singh, Devaraj Adiga, Smruti Bhate, Ganesh Ramakrishnan, Rohit Saluja, Maunendra Sankar Desarkar"
+  year: 2025
+  venue: "TokShop, ICML"
+  links:
+    pdf: "https://openreview.net/pdf?id=32wHtvZOqH"
+    # bibtex: "#"
+    # slides: "#"
+    # poster: "#"
+    # dataset: "https://huggingface.co/datasets/nlip/DIWALI"
+    # blog: "https://nlip-lab.github.io/nlip/publications/diwali/"
+  thumb: "assets/images/morphtok.png"
+
+
+- id: nlip-wat24
+  title: "NLIP-Lab-IITH Multilingual MT System for WAT24 MT Shared Task"
+  authors: "Maharaj Brahma, Pramit Sahoo, Maunendra Sankar Desarkar"
+  year: 2024
+  venue: "WAT24 MT Shared Task"
+  others:
+    system_award: "Best System Submission"
+  links:
+    pdf: "https://aclanthology.org/2024.wmt-1.74.pdf"
+    # bibtex: "#"
+    # slides: "#"
+    # poster: "#"
+    # dataset: ""
+    # blog: ""
+  thumb: ""
+
+- id: nlip-wmt24
+  title: "NLIP_Lab-IITH Low-Resource MT System for WMT24 Indic MT Shared Task"
+  authors: "Pramit Sahoo, Maharaj Brahma, Maunendra Sankar Desarkar"
+  year: 2024
+  venue: "WAT24 MT Shared Task"
+  links:
+    pdf: "https://aclanthology.org/2024.wmt-1.70.pdf"
+    # bibtex: "#"
+    # slides: "#"
+    # poster: "#"
+    # dataset: ""
+    # blog: ""
+  thumb: ""
+
+- id: select-noise
+  title: "SelectNoise: Unsupervised Noise Injection to Enable Zero-Shot Machine Translation for Extremely Low-resource Languages"
+  authors: "Maharaj Brahma*, Kaushal Kumar Maurya*, Maunendra Sankar Desarkar"
+  year: 2023
+  venue: "EMNLP Findings"
+  others: 
+    poster_award: "Best Poster (2nd) at IndoML 24"
+  links:
+    pdf: "https://aclanthology.org/2023.findings-emnlp.109.pdf"
+    # bibtex: "#"
+    # slides: "#"
+    poster: "https://drive.google.com/file/d/1mvtjN68KlKWvD2M0T06yQdCM-WeHV1X2/view?usp=drive_link"
+    # dataset: "https://huggingface.co/datasets/nlip/DIWALI"
+    # blog: "https://nlip-lab.github.io/nlip/publications/diwali/"
+  thumb: "assets/images/select_noise.png"
+
+
