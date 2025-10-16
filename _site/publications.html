@@ -27,7 +27,15 @@
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Maharaj Brahma" /></head>
 <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 20px; color:#222; }
-        h1 { margin-bottom: 0.5rem; }
+        h1 { 
+            margin-bottom: 0.5rem; 
+            font-size: clamp(1.2rem, 2vw + 0.5rem, 1.5rem);
+        }
+        h2 {
+            margin-bottom: 0.5rem;
+            font-size: clamp(1.2rem, 2vw + 0.5rem, 1.5rem);
+            line-height: 1.25;
+        }
         .publication-list { display: flex; flex-direction: column; gap: 8px; }
         .publication { display:flex; gap:10px; align-items:flex-start; padding:12px; border-radius:8px; background:#ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
         /* .publication img.thumb { width:200px; height:100px; border-radius:6px; flex-shrink:0; } */
@@ -56,6 +64,47 @@
         /* @media (max-width:640px) {
             .preprint img.thumb { width:96px; height:64px; }
         } */
+        /* ✅ Mobile adjustments */
+        @media (max-width: 768px) {
+        body {
+            margin: 10px;
+        }
+
+        .publication {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .publication img.thumb {
+            width: 100%;
+            height: auto;
+        }
+
+        .authors {
+            font-size: 0.85rem;
+        }
+
+        .badge {
+            font-size: 0.7rem;
+            padding: 2px 6px;
+        }
+        }
+
+        /* ✅ Very small screens */
+        @media (max-width: 480px) {
+        h1 {
+            font-size: 1.3rem;
+        }
+
+        .publication {
+            padding: 10px;
+        }
+
+        .publication img.thumb {
+            width: 100%;
+        }
+        }
+         
     </style>
 
   <body><header class="site-header" role="banner">
@@ -73,8 +122,9 @@
         <div class="trigger"><a class="page-link" href="/about.html">About</a><a class="page-link" href="/blog.html">Blogs</a><a class="page-link" href="/publications.html">Publications</a><a class="page-link" href="/teaching.html">Academic Experiences</a><a class="page-link" href="/writings.html">Writings</a></div>
       </nav></div>
 </header>
-<main class="page-content" aria-label="Content">
-        <div class="page-wrapper"><h1 class="page-heading">Publications</h1><div class="publication-list">
+<div class="home">
+        <main class="page-content" aria-label="Content">
+            <div class="page-wrapper"><h1 class="page-heading">Publications</h1><div class="publication-list">
 
 <article class="publication">
     <img class="thumb" src="assets/images/food_facet_diwali.png" alt="DIWALI-Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context thumbnail" />
@@ -192,7 +242,9 @@
 
 </div>
 
-        </div>
-    </main>
+            </div>
+        </main>
+     </div>
+    
   </body>
 </html>
