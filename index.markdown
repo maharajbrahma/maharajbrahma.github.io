@@ -13,7 +13,7 @@ In 2020, I had the good fortune to co-found a startup ["DigitalOma"](https://dig
 
 I received my Bachelor of Technology (B.Tech.) in Computer Science & Engineering from CIT Kokrajhar, India in 2019 and worked on a thesis titled *"English-Bodo Neural Machine Translation using Attention Mechanism"*.
 
-You can find more information in my [CV]("https://drive.google.com/file/d/1JOGPfeRF7MmWOqvcA9id9GUngIBawop_/view?usp=sharing").
+You can find more information in my [CV](https://drive.google.com/file/d/1JOGPfeRF7MmWOqvcA9id9GUngIBawop_/view?usp=sharing).
 
 <div style="background-color: #f7f6f1; color: #000; padding: 12px;">
     Interested in localization for Bodo language. Join <a style="color: #4daf7c" href="https://pontoon.mozilla.org/brx/">Bodo Mozilla Pontoon team!</a>
