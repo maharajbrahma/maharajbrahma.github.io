@@ -87,7 +87,7 @@
 
   <body>
      {%- include header.html -%}
-     <div class="home">
+     <!-- <div class="home"> -->
         <main class="page-content" aria-label="Content">
             <div class="page-wrapper">
                     {%- if page.title -%}
@@ -97,7 +97,8 @@
                     {{ content }}
             </div>
         </main>
-     </div>
+     <!-- </div> -->
+    {%- include footer.html -%}
     
   </body>
 </html>
