@@ -9,8 +9,9 @@ description: Publications related to research work done
 <article class="publication">
     <img class="thumb" src="{{ p.thumb }}" alt="{{ p.title }} thumbnail" />
     <div class="meta">
-    <h2 class="title">{{ p.title }}</h2>
-    <div class="authors">{{ p.authors }}. {% if p.venue %} {{ p.venue }}{% endif %} {{ p.year }}.
+    <h2 class="title"><a href="{{ p.links.pdf }}">{{ p.title }}</a></h2>
+    <div class="authors">{{ p.authors }}.</div>
+    <div class="venue">{% if p.venue %} {{ p.venue }}{% endif %} {{ p.year }}.
     {% if p.others.note %} <span style="background-color:#e0f7fa; color:#00796b; padding:2px 4px; border-radius:4px; font-weight:500; font-size:0.8em;"> Oral Presentation </span> {% endif %}
     </div>
     {% if p.others.system_award %}
