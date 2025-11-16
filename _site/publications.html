@@ -37,29 +37,32 @@
             line-height: 1.25;
         }
         .publication-list { display: flex; flex-direction: column; gap: 8px; }
-        .publication { display:flex; gap:10px; align-items:flex-start; padding:12px; border-radius:8px; background:#ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+        /* .publication { display:flex; gap:10px; align-items:flex-start; padding:12px; border-radius:8px; background:#ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }*/
+        .publication { display:flex; gap:10px; align-items:flex-start; padding:12px;}
+        
         /* .publication img.thumb { width:200px; height:100px; border-radius:6px; flex-shrink:0; } */
-        .publication img.thumb { width:200px; border-radius:6px; flex-shrink:0; }        
+        .publication img.thumb { width:120px; height:80px; border-radius:6px; flex-shrink:0; border:1px solid #ddd}        
         .meta { min-width:0; }
         /* .title { margin:0 0 6px 0; font-size:1.05rem; color:#0b5db8; } */
-        .authors { font-size:0.92rem; color:#444; margin-bottom:8px; }
+        .authors { font-size:0.92rem; color:#444; margin-bottom:1px; }
+        .venue { font-size:0.92rem; color:#444; font-style: italic; }
         .badges { display:flex; gap:8px; flex-wrap:wrap; }
 
         /* Badge styles with background colors */
         .badge {
             display:inline-block;
-            padding:3px 8px;
-            border-radius:4px;
+            padding:1px 4px;
+            border-radius:3px;
             text-decoration:none;
             font-size:0.75rem;
             font-weight:500;
             color:#fff;
         }
-        .badge.pdf { background: #5cb85c; }       /* green */
-        .badge.bib { background: #d9534f; }      /* pink/red */
-        .badge.slides { background:#2196f3; }   /* blue */
-        .badge.abstract { background:#9e9e9e; } /* gray */
-        .badge.poster { background:#f1cf0c; } /* gray */
+        .badge.pdf { background: #5cb85c; color: white;}       /* green */
+        .badge.bib { background: #d9534f; color: white;}      /* pink/red */
+        .badge.slides { background:#2196f3; color: white;}   /* blue */
+        .badge.abstract { background:#9e9e9e; color: white;} /* gray */
+        .badge.poster { background:#f1cf0c; color: white;} /* gray */
 
         /* @media (max-width:640px) {
             .preprint img.thumb { width:96px; height:64px; }
