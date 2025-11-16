@@ -1,6 +1,6 @@
 ---
 layout: publications
-title: Publications
+title: Selected Publications
 description: Publications related to research work done
 ---
 
