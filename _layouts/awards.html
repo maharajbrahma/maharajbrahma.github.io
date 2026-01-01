@@ -6,11 +6,11 @@ layout: default
    {%- if site.posts.size > 0 -%}
     <h5 class="news-list-heading">{{ page.list_title | default: "Awards and Achievements:" }}</h5>
     <ul class="news-list">
-      {%- for post in site.categories.awards -%}
+      {%- for post in site.categories.awards limit:10 -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <div>
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <span class="post-meta">[{{ post.year }}]</span>
           {{ post.title }}
         </div>
         {%- if site.show_excerpts -%}

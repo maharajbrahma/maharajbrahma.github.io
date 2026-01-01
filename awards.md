@@ -1,5 +1,5 @@
 ---
-layout: news
-description: awards
-nav_exclude: true
+layout: awards
+title: Awards and Achievements
+description: Awards and Achievements
 ---

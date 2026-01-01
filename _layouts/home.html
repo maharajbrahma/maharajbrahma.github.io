@@ -35,23 +35,5 @@ layout: default
         <a style="text-decoration:wavy;" href="/news.html">See More &gt;&gt;</a>
       </div>
     {%- endif -%}
-
-      {%- if site.posts.size > 0 -%}
-    <h5 class="news-list-heading">{{ page.list_title | default: "Awards & Achievements:" }}</h5>
-    <ul class="news-list">
-      {%- for post in site.categories.awards limit:10 -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <div>
-          <span class="post-meta">[{{ post.year }}]</span>
-          {{ post.title }}
-        </div>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-   {%- endif -%}
    {%- endif -%}
 </div>
