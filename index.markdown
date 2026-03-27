@@ -5,13 +5,7 @@
 layout: home
 ---
 
-Hi! I'm Maharaj, a <s>third-year</s> fourth-year Computer Science Ph.D. student at the [Natural Language and Information Processing (NLIP) Lab](https://nlip-lab.github.io/nlip) in the Department of Computer Science & Engineering at the [Indian Institute of Technology Hyderabad (IITH)](https://iith.ac.in/) supervised by [Prof. Maunendra Sankar Desarkar](https://people.iith.ac.in/maunendra/index.html) and [Dr. Anoop Kunchukuttan](http://anoopk.in/). My research interests include: 
-
-- **Culture NLP:**
-
-* **Multilinguality:**
-
-* **Large Language Models:**
+Hi! I'm Maharaj, a <s>third-year</s> fourth-year Computer Science Ph.D. student at the [Natural Language and Information Processing (NLIP) Lab](https://nlip-lab.github.io/nlip) in the Department of Computer Science & Engineering at the [Indian Institute of Technology Hyderabad (IITH)](https://iith.ac.in/) supervised by [Prof. Maunendra Sankar Desarkar](https://people.iith.ac.in/maunendra/index.html) and [Dr. Anoop Kunchukuttan](http://anoopk.in/). My research interests include: Culture NLP, Multilingual NLP, Large Language Models, and Machine Translation.
 
 Prior to joining the Ph.D. program, I completed my Master of Technology (M.Tech.) at [Central Institute of Technology Kokrajhar (CITK)](https://cit.ac.in/), CFTI, Deemed to be University under MoE, India. I was fortunate to be supervised by [Dr. Sanjib Narzary](https://cit.ac.in/profile-cse-dr-sanjib-narzary), and I worked on Machine Translation for the under-resourced Indian language Bodo.  I served as a Teaching Assistant (TA) for the master's course Advanced Computer Network Lab (PCSE271) and the undergraduate course Programming for Problem Solving Lab (UCSE271). I was a TA for the master’s course Mobile and Pervasive Computing (PCSE115), instructed by [Prof. Pranav Kumar Singh](https://cit.ac.in/profile-cse-dr-pranav-kumar-singh).
 
