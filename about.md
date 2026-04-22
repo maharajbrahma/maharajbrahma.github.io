@@ -2,6 +2,7 @@
 layout: custom
 title: About
 description: More about me
+nav_exclude: true
 ---
 
 Hello, thanks for stopping by! 
