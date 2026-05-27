@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Hi! I'm Maharaj, a <s>third-year</s> fourth-year Computer Science Ph.D. student at the [Natural Language and Information Processing (NLIP) Lab](https://nlip-lab.github.io/nlip) in the Department of Computer Science & Engineering at the [Indian Institute of Technology Hyderabad (IITH)](https://iith.ac.in/) supervised by [Prof. Maunendra Sankar Desarkar](https://people.iith.ac.in/maunendra/index.html) and [Dr. Anoop Kunchukuttan](https://anoopkunchukuttan.gitlab.io/). 
+Hi! I'm Maharaj, a 4th-year Computer Science Ph.D. student at the [Natural Language and Information Processing (NLIP) Lab](https://nlip-lab.github.io/nlip) in the Department of Computer Science & Engineering at the [Indian Institute of Technology Hyderabad (IITH)](https://iith.ac.in/) supervised by [Prof. Maunendra Sankar Desarkar](https://people.iith.ac.in/maunendra/index.html) and [Dr. Anoop Kunchukuttan](https://anoopkunchukuttan.gitlab.io/). 
 
 My research is driven by a desire to build equitable and culturally competent AI. My specific interests include **Culture NLP, Multilingual NLP, Large Language Models, and Machine Translation.**
 
