@@ -12,7 +12,7 @@ description: Publications related to research work done
     <h2 class="title"><a href="{{ p.links.pdf }}">{{ p.title }}</a></h2>
     <div class="authors">{{ p.authors }}.</div>
     <div class="venue">{% if p.venue %} {{ p.venue }}{% endif %} {{ p.year }}.
-    {% if p.others.note %} <span style="background-color:#e0f7fa; color:#00796b; padding:2px 4px; border-radius:4px; font-weight:500; font-size:0.8em;"> Oral Presentation </span> {% endif %}
+    {% if p.others.note %} <span style="background-color:#e0f7fa; color:#00796b; padding:2px 4px; border-radius:4px; font-weight:500; font-size:0.8em;"> {{p.others.note}} </span> {% endif %}
     </div>
     {% if p.others.system_award %}
     <span style="color:#DAA520;">🏆 {{ p.others.system_award }}</span>

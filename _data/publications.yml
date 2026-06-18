@@ -1,5 +1,18 @@
 # _data/preprints.yml
 # Each item: id, title, authors, year, venue (optional), links (pdf, bibtex, slides), thumb
+- id: multilingual-tokenization
+  title: "Multilingual Tokenization through the Lens of Indian Languages: Challenges and Insights"
+  authors: "Maharaj Brahma*, NJ Karthika*, Rajat Verma, Nagasai Saketh Naidu, Rohit Saluja, Maunendra Sankar Desarkar, Ganesh Ramakrishnan"
+  year: 2026
+  venue: "ACL (Findings)"
+  links:
+    pdf: "https://openreview.net/pdf?id=RpFtkDdCgj"
+    # bibtex: "#"
+    # slides: "#"
+    # poster: "#"
+    # dataset: "https://huggingface.co/datasets/nlip/DIWALI"
+    # blog: "https://nlip-lab.github.io/nlip/publications/diwali/"
+  thumb: "assets/images/multilingual-tokenization.png"
 
 - id: diwali
   title: "DIWALI-Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context"
@@ -7,7 +20,7 @@
   year: 2025
   venue: "EMNLP"
   others:
-    note: "Oral presentation"
+    note: "Oral Presentation"
   links:
     pdf: "https://aclanthology.org/2025.emnlp-main.1706/"
     # bibtex: "#"
