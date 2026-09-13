@@ -321,3 +321,33 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+.research-area {
+  background-color: #f7f6f1;
+  padding: 12px;
+  margin-bottom: 12px;
+  // border-left: 3px solid #2b6777;
+  border-left: 3px solid #4daf7c;
+}
+
+.research-area h3 {
+  color: #1a1a1a;
+}
+
+.research-area a {
+  color: #2b6777;
+}
+
+.research-area a:hover {
+  color: #1d4e59;
+  text-decoration: underline;
+}
+
+.paper-label {
+  color: #2b6777;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+}
