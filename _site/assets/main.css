@@ -92,9 +92,11 @@ table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-c
 
 table td { border: 1px solid #e8e8e8; }
 
-.research-area { background-color: #f7f6f1; padding: 12px; margin-bottom: 12px; border-left: 3px solid #4daf7c; }
+.research-area { background-color: #eaf1ee; padding: 12px; margin-bottom: 12px; border: 2px solid #e2ede7; border-radius: 4px; }
 
-.research-area h3 { color: #1a1a1a; }
+.research-area p { margin-bottom: 5px; }
+
+.research-area h3 { color: #1a1a1a; margin-bottom: 0px; }
 
 .research-area a { color: #2b6777; }
 

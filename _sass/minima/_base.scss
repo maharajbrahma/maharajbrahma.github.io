@@ -323,15 +323,21 @@ table {
 }
 
 .research-area {
-  background-color: #f7f6f1;
+  background-color: #eaf1ee;
   padding: 12px;
   margin-bottom: 12px;
   // border-left: 3px solid #2b6777;
-  border-left: 3px solid #4daf7c;
+  border: 2px solid #e2ede7;
+  border-radius: 4px;
+}
+
+.research-area p {
+  margin-bottom: 5px;
 }
 
 .research-area h3 {
   color: #1a1a1a;
+  margin-bottom: 0px;
 }
 
 .research-area a {
