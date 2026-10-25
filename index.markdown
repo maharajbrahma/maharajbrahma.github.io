@@ -23,7 +23,7 @@ I actively contribute to the NLP research community through conference service, 
 <h3>Multilingual NLP</h3>
 <p class="blurb"></p>
 <h4 class="paper-label">Selected Papers:</h4>
-<a href="https://arxiv.org/abs/2609.03511" target="_blank" rel="noopener noreferrer">Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations</a> (EMNLP Findings 2026)
+<a href="https://aclanthology.org/2026.findings-emnlp.2317/" target="_blank" rel="noopener noreferrer">Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations</a> (EMNLP Findings 2026)
 <br>
 <a href="https://aclanthology.org/2023.findings-emnlp.109.pdf" target="_blank" rel="noopener noreferrer">SelectNoise: Unsupervised Noise Injection to Enable Zero-Shot Machine Translation for Extremely Low-resource Languages</a> (EMNLP Findings 2023)
 </div>

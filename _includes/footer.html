@@ -5,7 +5,7 @@
 
     <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
 
-    <div class="wrapper-list"  style="max-width: 250px;">
+    <div class="wrapper-list"  style="max-width: 300px;">
       <ul class="contact-list">
         {%- if site.email -%}
         <li><a class="u-email" href="mailto:{{ site.email }}">Email</a></li>
@@ -13,13 +13,16 @@
         {%- if site.google_scholar -%}
         <li><a class="u-email" href="{{ site.google_scholar }}">Google scholar</a></li>
         {%- endif -%}
+         {%- if site.dblp -%}
+        <li><a class="u-email" href="{{ site.dblp }}">DBLP</a></li>
+        {%- endif -%}
         </ul>
       
     </div>
-    <div class="wrapper-list" style="max-width: 100px;">
+    <div class="wrapper-list" style="max-width: 50px;">
       {%- include social.html -%}
     </div>
-    <div class="wrapper-list hidden-mobile"  style="max-width: 250px;">
+    <div class="wrapper-list hidden-mobile"  style="max-width: 500px;">
       <ul class="contact-list">
         {%- if site.semantic_scholar -%}
         <li><a class="u-email" href="{{ site.semantic_scholar }}">Semantic scholar</a></li>
@@ -27,8 +30,10 @@
         {%- if site.orcid -%}
         <li><a class="u-email" href="{{ site.orcid }}">ORCiD</a></li>
         {%- endif -%}
-        </ul>
-      
+        {%- if site.acl -%}
+        <li><a class="u-email" href="{{ site.acl }}">ACL Anthology</a></li>
+        {%- endif -%}
+      </ul>
     </div>
     <!-- <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
