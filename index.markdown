@@ -16,25 +16,25 @@ I actively contribute to the NLP research community through conference service, 
 <h3>Cultural NLP</h3>
 <p class="blurb"></p>
 <h4 class="paper-label">Selected Papers:</h4>
-<a href="https://aclanthology.org/2025.emnlp-main.1706/" target="_blank" rel="noopener noreferrer">DIWALI - Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context</a> (EMNLP 2025)
+<span style="color:#2b6777">↳</span> <a href="https://aclanthology.org/2025.emnlp-main.1706/" target="_blank" rel="noopener noreferrer">DIWALI - Diversity and Inclusivity aWare cuLture specific Items for India: Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context</a> (EMNLP 2025)
 </div>
 
 <div class="research-area">
 <h3>Multilingual NLP</h3>
 <p class="blurb"></p>
 <h4 class="paper-label">Selected Papers:</h4>
-<a href="https://aclanthology.org/2026.findings-emnlp.2317/" target="_blank" rel="noopener noreferrer">Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations</a> (EMNLP Findings 2026)
+<span style="color:#2b6777">↳</span> <a href="https://aclanthology.org/2026.findings-emnlp.2317/" target="_blank" rel="noopener noreferrer">Lost in Reordering: Structural Sensitivity of Multilingual LLMs under Semantics-Preserving Perturbations</a> (EMNLP Findings 2026)
 <br>
-<a href="https://aclanthology.org/2023.findings-emnlp.109.pdf" target="_blank" rel="noopener noreferrer">SelectNoise: Unsupervised Noise Injection to Enable Zero-Shot Machine Translation for Extremely Low-resource Languages</a> (EMNLP Findings 2023)
+<span style="color:#2b6777">↳</span> <a href="https://aclanthology.org/2023.findings-emnlp.109.pdf" target="_blank" rel="noopener noreferrer">SelectNoise: Unsupervised Noise Injection to Enable Zero-Shot Machine Translation for Extremely Low-resource Languages</a> (EMNLP Findings 2023)
 </div>
 
 <div class="research-area">
 <h3>Tokenization</h3>
 <p class="blurb"></p>
 <h4 class="paper-label">Selected Papers:</h4>
-<a href="https://aclanthology.org/2026.findings-acl.1632/" target="_blank" rel="noopener noreferrer">Multilingual Tokenization through the Lens of Indian Languages: Challenges and Insights</a> (ACL Findings 2026)
+<span style="color:#2b6777">↳</span> <a href="https://aclanthology.org/2026.findings-acl.1632/" target="_blank" rel="noopener noreferrer">Multilingual Tokenization through the Lens of Indian Languages: Challenges and Insights</a> (ACL Findings 2026)
 <br>
-<a href="https://icml.cc/virtual/2025/47788" target="_blank" rel="noopener noreferrer">MorphTok: Morphologically Grounded Tokenization for Indic languages</a> (TokShop, ICML 2025)
+<span style="color:#2b6777">↳</span> <a href="https://icml.cc/virtual/2025/47788" target="_blank" rel="noopener noreferrer">MorphTok: Morphologically Grounded Tokenization for Indic languages</a> (TokShop, ICML 2025)
 </div>
 
 <!-- <div style="background-color: #f7f6f1; color: #000; padding: 12px;">
